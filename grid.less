@@ -1,4 +1,5 @@
 @width1: 8.333333%;
+@padding-top: 16px;
 
 .padding-col(@wd)
 {
@@ -10,12 +11,75 @@
 	padding-right: 15px;
 }
 
+.padding(@mnog, @tbrl)when(@tbrl = 1)
+	{
+		padding-top: @padding-top*@mnog !important;
+	}
+.padding(@mnog, @tbrl)when(@tbrl = 2)
+	{
+		padding-bottom: @padding-top*@mnog !important;
+	}
+.padding(@mnog, @tbrl)when(@tbrl = 3)
+	{
+		padding-right: @padding-top*@mnog !important;
+	}
+.padding(@mnog, @tbrl)when(@tbrl = 4)
+	{
+		padding-left: @padding-top*@mnog !important;
+	}
+
+.padding-napr(@napr)
+{
+		&-0
+		{
+			.padding(0, @napr);
+		}
+		&-1
+		{
+			.padding(0.25, @napr);
+		}
+		&-2
+		{
+			.padding(0.5, @napr);
+		}
+		&-3
+		{
+			.padding(1, @napr);
+		}
+		&-4
+		{
+			.padding(1.5, @napr);
+		}
+		&-5
+		{
+			.padding(3, @napr);
+		}
+}
+
 .row
 {
 	display: flex;
 	flex-direction: row;
 }
-
+.p
+{
+	&t
+	{
+		.padding-napr(1);
+	}
+	&b
+	{
+		.padding-napr(2);
+	}
+	&l
+	{
+		.padding-napr(3);
+	}
+	&r
+	{
+		.padding-napr(4);
+	}
+}
 .col
 {		
 	padding-left: 15px;
