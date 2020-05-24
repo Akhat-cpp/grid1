@@ -161,114 +161,114 @@
   padding-left: 48px !important;
 }
 .col {
-  width: auto;
+  max-width: inherit;
   display: flex;
   flex-direction: column;
-  flex: 0 0 auto;
+  flex: 1 1;
   padding-left: 15px;
   padding-right: 15px;
 }
 .col-auto {
-  width: auto;
+  max-width: auto;
   display: flex;
   flex-direction: column;
-  flex: 0 0 auto;
+  flex: 1 1;
   padding-left: 15px;
   padding-right: 15px;
 }
 .col-1 {
-  width: 8.333333%;
+  max-width: 8.333333%;
   display: flex;
   flex-direction: column;
-  flex: 0 0 8.333333%;
+  flex: 1 1;
   padding-left: 15px;
   padding-right: 15px;
 }
 .col-2 {
-  width: 16.666666%;
+  max-width: 16.666666%;
   display: flex;
   flex-direction: column;
-  flex: 0 0 16.666666%;
+  flex: 1 1;
   padding-left: 15px;
   padding-right: 15px;
 }
 .col-3 {
-  width: 24.999999%;
+  max-width: 24.999999%;
   display: flex;
   flex-direction: column;
-  flex: 0 0 24.999999%;
+  flex: 1 1;
   padding-left: 15px;
   padding-right: 15px;
 }
 .col-4 {
-  width: 33.333332%;
+  max-width: 33.333332%;
   display: flex;
   flex-direction: column;
-  flex: 0 0 33.333332%;
+  flex: 1 1;
   padding-left: 15px;
   padding-right: 15px;
 }
 .col-5 {
-  width: 41.666665%;
+  max-width: 41.666665%;
   display: flex;
   flex-direction: column;
-  flex: 0 0 41.666665%;
+  flex: 1 1;
   padding-left: 15px;
   padding-right: 15px;
 }
 .col-6 {
-  width: 49.999998%;
+  max-width: 49.999998%;
   display: flex;
   flex-direction: column;
-  flex: 0 0 49.999998%;
+  flex: 1 1;
   padding-left: 15px;
   padding-right: 15px;
 }
 .col-7 {
-  width: 58.333331%;
+  max-width: 58.333331%;
   display: flex;
   flex-direction: column;
-  flex: 0 0 58.333331%;
+  flex: 1 1;
   padding-left: 15px;
   padding-right: 15px;
 }
 .col-8 {
-  width: 66.666664%;
+  max-width: 66.666664%;
   display: flex;
   flex-direction: column;
-  flex: 0 0 66.666664%;
+  flex: 1 1;
   padding-left: 15px;
   padding-right: 15px;
 }
 .col-9 {
-  width: 74.999997%;
+  max-width: 74.999997%;
   display: flex;
   flex-direction: column;
-  flex: 0 0 74.999997%;
+  flex: 1 1;
   padding-left: 15px;
   padding-right: 15px;
 }
 .col-10 {
-  width: 83.33333%;
+  max-width: 83.33333%;
   display: flex;
   flex-direction: column;
-  flex: 0 0 83.33333%;
+  flex: 1 1;
   padding-left: 15px;
   padding-right: 15px;
 }
 .col-11 {
-  width: 91.666663%;
+  max-width: 91.666663%;
   display: flex;
   flex-direction: column;
-  flex: 0 0 91.666663%;
+  flex: 1 1;
   padding-left: 15px;
   padding-right: 15px;
 }
 .col-12 {
-  width: 99.999996%;
+  max-width: 99.999996%;
   display: flex;
   flex-direction: column;
-  flex: 0 0 99.999996%;
+  flex: 1 1;
   padding-left: 15px;
   padding-right: 15px;
 }

@@ -3,10 +3,10 @@
 
 .padding-col(@wd)
 {
-	width: @wd;
+	max-width: @wd;
 	display: flex;
 	flex-direction: column;
-	flex: 0 0 @wd;
+	flex: 1 1;
 	padding-left: 15px;
 	padding-right: 15px;
 }
@@ -203,7 +203,7 @@
 }
 .col
 {		
-	.padding-col(auto);
+	.padding-col(inherit);
 	&-auto
 	{
 		.padding-col(auto);
